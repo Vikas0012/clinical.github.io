@@ -1,0 +1,468 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float:  right;
+}
+.clr{
+    clear:  both;
+}
+.sign_top{
+    height: 50px;
+    border: 2px solid rgba(192, 192, 192,.4);
+}
+.btn1{
+    height: 35px;
+    margin-top: 5px;
+    background-color: whitesmoke;
+    border: 0;
+    font-size: 17px;
+    padding: 5px 15px;
+    margin-left: 2%;  
+}
+.btn2{
+    margin-left: 10px;
+    background-color: #0000B3;
+    color: white;
+}
+.search{
+    height: 35px;
+    width: 300px;
+    margin-top: 5px;
+    margin-right: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.bar{
+    margin-right: 2%;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.icon{
+    position: absolute;
+    right: 100px;
+    top: 15px;
+    font-size: 20px;
+}
+.gmail{
+    height: 50px;
+}
+.call{
+    margin-left: 2%;
+    padding-top: 5px;
+    color: #0000B3;margin-top: 10px;
+    font-size: 20px;
+}
+.appoint{
+    height: 40px;
+    margin-top: 5px;
+    background-color: #FF70D4;
+    border: 0;
+    color: white;
+    font-size: 22px;
+    margin-right: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+.banner{
+    height:510px;
+    width: 100%;
+    /* background: url(slide2.jpg) no-repeat;
+    background-size: 100% 850px; */
+}
+/* .trans{
+    height: 850px;
+    background-color: rgba(0, 0, 255,.3);
+} */
+.nav_work{
+    height: 60px;
+    background-color: #0000B3;
+    /* position: sticky;
+    top: 0px; */
+}
+.art1{
+    height: 300px;
+    width: 75%;
+    margin: auto;
+    margin-top: 70px;
+}
+.art_img{
+    height: 300px;
+    width: 40%;
+    background: url(about.jpg) no-repeat;
+    background-size: 100% 300px;
+}
+.art_text{
+    height: 300px;
+    width: 50%;
+}
+.better_care{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+.lorem_about{
+    margin: auto;
+    font-size: 17px;
+    color: rgb(114, 112, 112);
+    letter-spacing: 2px;
+}
+.about_btn{
+    height: 50px;
+    margin-top: 35px;
+    border: 2px solid #0000B3;
+    background: none;
+    font-size: 18px;
+    padding: 2px 25px;
+}
+.about_btn:hover{
+    background-color: #0000B3;
+    color: white;
+}
+.logo{
+    color: white;
+    font-size: 50px;
+    margin-left: 2%;
+    letter-spacing: 7px;
+    font-weight: bold;
+    font-family: 'Dongle', sans-serif;
+}
+.create ul{
+margin-top: 20px;
+}
+.create ul li{
+display: inline;
+}
+.create ul li a{
+text-decoration: none;
+color: white;
+font-size: 18px;
+margin-right: 30px;
+}
+.down{
+    margin-left: 5px;
+    font-size: 15px;
+}
+.art{
+    height: 300px;
+    width: 50%;
+    margin-top: 250px;
+    margin-left: 10%;
+}
+.medical{
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: #FF70D4;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0;
+    margin-bottom: 30px;
+}
+.better{
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+}
+.lorem{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+}
+.read{
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.hide_show{
+    height: 753px;
+    width: 25%;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: none;
+    position: fixed;
+}
+.wrong{
+    color: red;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-right: 5%;
+}
+.quick{
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 5%;
+    font-weight: bold;
+}
+.search1{
+    margin-left: 0px;
+    margin-right: 15%;
+    height: 50px;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.icont{
+    top: 103px;
+    font-size: 25px;
+}
+.quick_s{
+    height: 150px;
+}
+.calls{
+margin-top: 30px;
+margin-left: 5%;
+}
+.main_call{
+    color: #0000B3;
+    font-size: 25px;
+}
+.num{
+    margin-left: 2%;
+    color: #5c5858;
+    font-size: 22px;
+}
+.mmail{
+    margin-top: 10px;
+    margin-left: 5%;
+}
+.mmc{
+    margin-top: 15px;
+}
+.gmm{
+    margin-top: 15px;
+    margin-left: 4%;
+}
+.mmap{
+    margin-top: 18px;
+    margin-left: 5%;
+}
+.india{
+    margin-top: 18px;
+    margin-left: 6%;
+}
+.follow{
+    margin-top: 100px;
+    height: 100px;
+}
+.follow_us{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 3%;
+}
+.follow_icon{
+    font-size: 60px;
+    margin-top: 15px;
+    margin-right: 7%;
+}
+.ff{
+    margin-left: 8%;
+    color: blue;
+}
+.tt{
+    color: skyblue;
+}
+.gg{
+    color: tomato;
+}
+.ii{
+    color: #FF70D4;
+}
+.row1{
+    height: 800px;
+    background-color: #6042C2;
+}
+.row1_work{
+    height: 800px;
+    width: 85%;
+    border: 2px solid #6042C2;
+    margin: auto;
+}
+.service{
+    font-size: 40px;
+    font-weight: 900;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+.service_lorem{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(230, 222, 222);
+}
+.ser_lorem{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(230, 222, 222);
+    margin-top: 5px;
+    margin-bottom: 40px;
+}
+.row1_div{
+    height: 200px;
+    width: 48%;
+}
+.row1_icon{
+    height: 200px;
+    width: 17%;
+}
+.row1_text{
+    height: 200px;
+    width: 75%;
+}
+.row1_box{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    border-radius: 50%;
+}
+.med_kit{
+    font-size: 40px;
+    color: #FF70D4;
+    margin-left: 35px;
+    margin-top: 30px;
+}
+.about_care{
+    font-size: 27px;
+    font-weight: 900;
+    color: white;
+}
+.ro1_lorem{
+    margin-top: 20px;
+    font-size: 17px;
+    letter-spacing: 2px;
+    color: rgb(230, 222, 222);
+}
+.row2{
+    height: 500px;
+    width: 70%;
+    
+    margin-left: 10%;
+}
+.row2_work{
+    height: 450px;
+margin-top: 50px;
+}
+.medi{
+    font-size: 25px;
+    color: #FF70D4;
+}
+.our_special{
+    font-size: 100px;
+    font-weight: 900;
+}
+.row2_lorem{
+    margin-top: 30px;
+    color: rgb(99, 95, 95);
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.row2_div{
+    margin-top: 40px;
+    height: 170px;
+    width: 22.2%;
+}
+.row2_left{
+    margin-left: 40px;
+}
+.up_to{
+    font-size: 22px;
+    color: #0000B3;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+.one{
+    font-size: 80px;
+    font-weight: 900;
+    color: #FF70D4;
+    margin-bottom: 5px;
+}
+.sats{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+footer{
+    height: 500px;
+    background-color: #080808;
+}
+.footer_work{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+}
+.foot_div{
+    height: 280px;
+    width: 20%;
+    margin-right: 5%;
+    margin-top: 50px;
+}
+.mmenu_links{
+    font-size: 22px;
+    color: white;
+    font-weight: bolder;
+margin-bottom: 25px;
+}
+.m_l ul li{
+list-style: none;
+margin-bottom: 15px;
+}
+.m_l ul li a{
+    text-decoration: none;
+    color: rgb(168, 161, 161);
+    font-size: 20px;
+}
+.copyright{
+    height: 170px;
+    width: 50%;
+    margin: auto;
+}
+.facebook_sign{
+    color: white;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.fs_l{
+    margin-left: 80px;
+}
+.fs_l:hover{
+    color: #0000B3;
+}
+.tw:hover{
+    color: skyblue;
+}
+.go:hover{
+    color: tomato;
+}
+.li:hover{
+    color: darkcyan;
+}
+.in:hover{
+    color: #FF70D4;
+}
+.pi:hover{
+    color: maroon;
+}
+.copyr{
+    color: whitesmoke;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 35px;
+}

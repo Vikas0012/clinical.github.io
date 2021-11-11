@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float:  right;
+}
+.clr{
+    clear:  both;
+}
+.sign_top{
+    height: 50px;
+    border: 2px solid rgba(192, 192, 192,.4);
+}
+.btn1{
+    height: 35px;
+    margin-top: 5px;
+    background-color: whitesmoke;
+    border: 0;
+    font-size: 17px;
+    padding: 5px 15px;
+    margin-left: 2%;  
+}
+.btn2{
+    margin-left: 10px;
+    background-color: #0000B3;
+    color: white;
+}
+.search{
+    height: 35px;
+    width: 300px;
+    margin-top: 5px;
+    margin-right: 20px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+.bar{
+    margin-right: 2%;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.icon{
+    position: absolute;
+    right: 100px;
+    top: 15px;
+    font-size: 20px;
+}
+.gmail{
+    height: 50px;
+}
+.call{
+    margin-left: 2%;
+    padding-top: 5px;
+    color: #0000B3;margin-top: 10px;
+    font-size: 20px;
+}
+.appoint{
+    height: 40px;
+    margin-top: 5px;
+    background-color: #FF70D4;
+    border: 0;
+    color: white;
+    font-size: 22px;
+    margin-right: 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.a{
+    text-decoration: none;
+    color: white;
+}
+.banner{
+    height: 950px;
+    width: 100%;
+    background: url(slide2.jpg) no-repeat;
+    background-size: 100% 950px;
+}
+.trans{
+    height: 950px;
+    background-color: rgba(0, 0, 255,.3);
+}
+.nav_work{
+    height: 60px;
+    background-color: #0000B3;
+    /* position: sticky;
+    top: 0px; */
+}
+.logo{
+    color: white;
+    font-size: 50px;
+    margin-left: 2%;
+    letter-spacing: 7px;
+    font-weight: bold;
+    font-family: 'Dongle', sans-serif;
+}
+.create ul{
+margin-top: 20px;
+}
+.create ul li{
+display: inline;
+}
+.create ul li a{
+text-decoration: none;
+color: white;
+font-size: 18px;
+margin-right: 30px;
+}
+.down{
+    margin-left: 5px;
+    font-size: 15px;
+}
+.art{
+    height: 300px;
+    width: 50%;
+    margin-top: 250px;
+    margin-left: 10%;
+}
+.medical{
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: #FF70D4;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 0;
+    margin-bottom: 30px;
+}
+.better{
+    font-size: 40px;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+}
+.lorem{
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+}
+.read{
+    color: white;
+    font-size: 22px;
+    font-weight: bolder;
+}
+
+.hide_show{
+    height: 753px;
+    width: 25%;
+    background-color: whitesmoke;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    display: none;
+    position: fixed;
+}
+.wrong{
+    color: red;
+    font-size: 25px;
+    margin-top: 40px;
+    margin-right: 5%;
+}
+.quick{
+    font-size: 25px;
+    margin-top: 40px;
+    margin-left: 5%;
+    font-weight: bold;
+}
+.search1{
+    margin-left: 0px;
+    margin-right: 15%;
+    height: 50px;
+    font-size: 22px;
+    margin-top: 20px;
+}
+.icont{
+    top: 103px;
+    font-size: 25px;
+}
+.quick_s{
+    height: 150px;
+}
+.calls{
+margin-top: 30px;
+margin-left: 5%;
+}
+.main_call{
+    color: #0000B3;
+    font-size: 25px;
+}
+.num{
+    margin-left: 2%;
+    color: #5c5858;
+    font-size: 22px;
+}
+.mmail{
+    margin-top: 10px;
+    margin-left: 5%;
+}
+.mmc{
+    margin-top: 15px;
+}
+.gmm{
+    margin-top: 15px;
+    margin-left: 4%;
+}
+.mmap{
+    margin-top: 18px;
+    margin-left: 5%;
+}
+.india{
+    margin-top: 18px;
+    margin-left: 6%;
+}
+.follow{
+    margin-top: 100px;
+    height: 100px;
+}
+.follow_us{
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 3%;
+}
+.follow_icon{
+    font-size: 60px;
+    margin-top: 15px;
+    margin-right: 7%;
+}
+.ff{
+    margin-left: 8%;
+    color: blue;
+}
+.tt{
+    color: skyblue;
+}
+.gg{
+    color: tomato;
+}
+.ii{
+    color: #FF70D4;
+}
+.sign_in{
+    height: 640px;
+    width: 25%;
+    margin-top: 125px;
+    margin-left: 125px;
+    background-color: white;
+    position: relative;
+    /* z-index: -1; */
+
+}
+.log{
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 6%;
+    padding-top: 30px;
+}
+.uname{
+    height: 40px;
+    width: 88%;
+    margin-top: 30px;
+    margin-left: 6%;
+    padding-left: 40px;
+    font-size: 18px;
+}
+.user_top{
+    font-size: 20px;
+position: absolute;
+color: #0000B3;
+top: 102px;
+left: 30px;
+}
+.pass_top{
+    font-size: 20px;
+position: absolute;
+color: #0000B3;
+top: 173px;
+left: 30px;
+}
+.pass{
+    margin-bottom: 30px;
+}
+.pass1_top{
+    font-size: 20px;
+    position: absolute;
+    color: #0000B3;
+    top: 245px;
+    left: 30px;
+}
+.set{
+    margin-top: 0px;
+}
+.pass2_top{
+    font-size: 20px;
+    position: absolute;
+    color: #0000B3;
+    top: 315px;
+    left: 30px;
+}
+.cehck_box{
+    margin-left: 6%;
+    margin-right: 5px;
+}
+label{
+    font-size: 18px;
+    margin-right: 80px;
+}
+.btn3{
+    height: 50px;
+    border: 1px solid #0000B3;
+    font-size: 18px;
+    padding: 2px 35px;
+}
+.btn3:hover{
+    background-color: #0000B3;
+    color: white;
+}
+.forget{
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 6%;
+}
+a{
+    color: #FF70D4;
+}
+.or{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.fac_icon1{
+    margin-top: 30px;
+    font-size: 35px;
+    margin-left: 140px;
+    margin-right: 30px;
+}
+.sign_gooog{
+    margin-left: 0px;
+    color: tomato;
+}
+.sign_fac{
+    color: #0000B3;
+}
+.dont{
+    margin-top: 30px;
+margin-left: 6%;
+    font-size: 18px;
+    color: #5c5858;
+}
+
+footer{
+    height: 500px;
+    background-color: #080808;
+}
+.footer_work{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+}
+.foot_div{
+    height: 280px;
+    width: 20%;
+    margin-right: 5%;
+    margin-top: 50px;
+}
+.mmenu_links{
+    font-size: 22px;
+    color: white;
+    font-weight: bolder;
+margin-bottom: 25px;
+}
+.m_l ul li{
+list-style: none;
+margin-bottom: 15px;
+}
+.m_l ul li a{
+    text-decoration: none;
+    color: rgb(168, 161, 161);
+    font-size: 20px;
+}
+.copyright{
+    height: 170px;
+    width: 50%;
+    margin: auto;
+}
+.facebook_sign{
+    color: white;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.fs_l{
+    margin-left: 80px;
+}
+.fs_l:hover{
+    color: #0000B3;
+}
+.tw:hover{
+    color: skyblue;
+}
+.go:hover{
+    color: tomato;
+}
+.li:hover{
+    color: darkcyan;
+}
+.in:hover{
+    color: #FF70D4;
+}
+.pi:hover{
+    color: maroon;
+}
+.copyr{
+    color: whitesmoke;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 35px;
+}

@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.banner{
+    height: 753px;
+    background: url(error-bg.jpg) no-repeat;
+    background-size: 100% 753px;
+}
+.trans{
+    height: 753px ;
+    background-color: rgba(0, 0, 0,.8 );
+}
+.banner_work{
+    height: 753px;
+    width: 40%;
+    border: 2px solid rgba(0, 0, 0,.1);
+    margin: auto;
+}
+.oh{
+    font-size:90px;
+    font-weight: 900;
+    color: #A7A7A8;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+.looks{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.four{
+    font-size: 200px;
+    font-weight: 900;
+    background: url(error_img.png) 40% 40%;
+    background-size: cover;
+    /* position: absolute;
+    top: 250px; */
+    /* transform: translate(-50% ,-50%); */
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+}
+.not_found{
+    font-size: 40px;
+    font-weight: 900;
+    color: #A7A7A8;
+    margin-top: 10px;
+    text-align: center;
+}
+.subs{
+    height: 50px;
+    background-color: #FF70D4;
+    font-size: 16px;
+    padding: 2px 20px;
+    margin-left: 160px;
+    margin-top: 50px;
+}
+.back_home{
+background: none;
+color: white;
+    margin-left: 30px;
+}
+.change{
+    color: white;
+    text-decoration: none;
+}.back_home:hover{
+    background-color: #0000B3;
+}

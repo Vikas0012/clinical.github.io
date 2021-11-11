@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fr{
+    float: right;
+}
+.fl{
+    float: left;
+}
+.banner{
+    height: 753px ;
+    background: url(comingsoon.jpg) no-repeat;
+    background-size: 100% 753px;
+}
+.trans{
+    height: 753px;
+    background-color:rgba(0, 0, 0,.7) ;
+}
+.work{
+    height: 753px;
+    width: 40%;
+    margin: auto;
+    border: 2px solid rgba(0, 0, 0,.1);
+}
+.clinical{
+    font-size: 50px;
+    font-weight: 900;
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+}
+.tuned{
+    color: white;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+.we_are{
+    font-size: 40px;
+    color: #8F8F8D;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 10px;
+}
+.exp{
+    font-size: 35px;
+    margin-top: 80px;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+}
+.enter{
+    font-size: 17px;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+.mail{
+    height: 50px;
+    font-size: 18px;
+    padding-left: 20px;
+    margin-top: 50px;
+    margin-left: 140px;
+}
+.sub{
+    height: 50px;
+    margin-left: 10px;
+    background-color: #FF70D4;
+    color: white;
+    font-size: 18px;
+    padding: 2px 25px;
+}
+
+footer{
+    height: 500px;
+    background-color: #080808;
+}
+.footer_work{
+    height: 500px;
+    width: 80%;
+    margin: auto;
+}
+.foot_div{
+    height: 280px;
+    width: 20%;
+    margin-right: 5%;
+    margin-top: 50px;
+}
+.mmenu_links{
+    font-size: 22px;
+    color: white;
+    font-weight: bolder;
+margin-bottom: 25px;
+}
+.m_l ul li{
+list-style: none;
+margin-bottom: 15px;
+}
+.m_l ul li a{
+    text-decoration: none;
+    color: rgb(168, 161, 161);
+    font-size: 20px;
+}
+.copyright{
+    height: 170px;
+    width: 50%;
+    margin: auto;
+}
+.facebook_sign{
+    color: white;
+    font-size: 40px;
+    margin-top: 40px;
+    margin-right: 30px;
+}
+.fs_l{
+    margin-left: 80px;
+}
+.fs_l:hover{
+    color: #0000B3;
+}
+.tw:hover{
+    color: skyblue;
+}
+.go:hover{
+    color: tomato;
+}
+.li:hover{
+    color: darkcyan;
+}
+.in:hover{
+    color: #FF70D4;
+}
+.pi:hover{
+    color: maroon;
+}
+.copyr{
+    color: whitesmoke;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 35px;
+}
